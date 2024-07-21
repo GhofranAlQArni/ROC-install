@@ -21,7 +21,6 @@ ________________________________________________________________________________
 
 choose the latest version and click on Windows Hosts
 
-<img width="1078" alt="image" src="https://github.com/user-attachments/assets/ed0c7f16-30ff-4d57-bfe7-7ea4aced7e44">
 
 
 ![Screenshot 2024-07-21 212935](https://github.com/user-attachments/assets/42763bf6-f84d-4531-bc05-c9060da58377)
