@@ -1,38 +1,38 @@
 # ROC-install 
 
-
-VM :
-
 ![Screenshot 2024-07-21 211624](https://github.com/user-attachments/assets/2db2117d-493d-4790-abce-872a9c526365)
-
-![Screenshot 2024-07-21 211643](https://github.com/user-attachments/assets/be8e44f4-0600-4a5d-8466-63dc6c098ede)
-
 
 
 __________________________________________________________________________________________________________________________________________________________________________________________
 
 
-# Task 1: Installing Ubunto and ROS in a virtual machine
+# Step 1: Installing Ubunto and ROS in a virtual machine
 
-1. Install Oracle VM virtual box: https://www.virtualbox.org/wiki/Downloads
+1. Install Oracle VM virtual box: https://www.virtualbox.org/wiki/Downloads 
 
 ![Screenshot 2024-07-21 212543](https://github.com/user-attachments/assets/f26ace7f-14ca-42ea-b32a-353681fa0018)
 
 
 choose the latest version and click on Windows Hosts
 
-
-
 ![Screenshot 2024-07-21 212935](https://github.com/user-attachments/assets/42763bf6-f84d-4531-bc05-c9060da58377)
 
 
+# step 3 :Download Ubuntu 16.04.7 LTS (Xenial Xerus): https://releases.ubuntu.com/16.04/
 
-# setting :
+
+# Step 2 : settings 
+
+From the Virtual box software, click on NEW.
 
 ![Screenshot 2024-07-21 211839](https://github.com/user-attachments/assets/2da67d44-ac3b-4ebe-ac45-262665da5263)
 
+Choose the name and destination folder after that click on Next:
 
 ![Screenshot 2024-07-21 211948](https://github.com/user-attachments/assets/411df174-9c58-470f-8993-10e5e8b1fde0)
+
+
+Go to display settings and choose the maximum amount of video memory:
 
 
 ![Screenshot 2024-07-21 212020](https://github.com/user-attachments/assets/aafc2565-7175-4d84-a1d8-db966c84158c)
@@ -40,6 +40,8 @@ choose the latest version and click on Windows Hosts
 
 ![Screenshot 2024-07-21 212131](https://github.com/user-attachments/assets/ff6c1b7b-4c79-4776-b6c8-70d61a3ef3e2)
 
+
+Go to storage settings and click on the "Empty" CD and then from Attributes click on the CD symbol and click on "choose a disk file..." from there you can choose the ISO file that is Ubunto 16.04 that was downloaded before:
 
 ![Screenshot 2024-07-21 212207](https://github.com/user-attachments/assets/ae49e161-68dd-4083-a1eb-792df3e32db7)
 
