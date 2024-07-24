@@ -18,10 +18,17 @@ choose the latest version and click on Windows Hosts
 ![Screenshot 2024-07-21 212935](https://github.com/user-attachments/assets/42763bf6-f84d-4531-bc05-c9060da58377)
 
 
-# step 3 :Download Ubuntu 16.04.7 LTS (Xenial Xerus): https://releases.ubuntu.com/16.04/
+
+# 2: Download Ubuntu 16.04.7 LTS (Xenial Xerus): https://releases.ubuntu.com/16.04/
+
+Choose 64-bit PC (AMD64) desktop image
+
+<img width="949" alt="image" src="https://github.com/user-attachments/assets/1aedd4f6-4323-4ad3-91b6-7ed72a0fb114">
 
 
-# Step 2 : settings 
+
+
+# here : settings 
 
 From the Virtual box software, click on NEW.
 
@@ -46,11 +53,6 @@ Go to storage settings and click on the "Empty" CD and then from Attributes clic
 ![Screenshot 2024-07-21 212207](https://github.com/user-attachments/assets/ae49e161-68dd-4083-a1eb-792df3e32db7)
 
 
-# 2: Download Ubuntu 16.04.7 LTS (Xenial Xerus): https://releases.ubuntu.com/16.04/
-
-Choose 64-bit PC (AMD64) desktop image
-
-<img width="949" alt="image" src="https://github.com/user-attachments/assets/1aedd4f6-4323-4ad3-91b6-7ed72a0fb114">
 
 # 3: Stetps on installing Ubunto with ROS on the virtual machine:
 
@@ -66,29 +68,29 @@ From the Virtual box software, click on NEW.
 
 
 # in TERMINAL ;
-i. sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
++ i. sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
 
-ii. sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
++ ii. sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
 
-iii. sudo apt-get update
++ iii. sudo apt-get update
 
-iv. sudo apt-get install ros-kinetic-desktop-full
++ iv. sudo apt-get install ros-kinetic-desktop-full
 
-v. apt-cache search ros-kinetic
++ v. apt-cache search ros-kinetic
 
-vi. echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
++ vi. echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
 
-vii. source ~/.bashrc
++ vii. source ~/.bashrc
 
-viii. sudo apt install python-rosdep python-rosinstall python-rosinstall-generator python-wstool build-essential
++ viii. sudo apt install python-rosdep python-rosinstall python-rosinstall-generator python-wstool build-essential
 
-ix. sudo apt install python-rosdep
++ ix. sudo apt install python-rosdep
 
-x. sudo rosdep init
++ x. sudo rosdep init
 
-xi. rosdep update
++ xi. rosdep update
 
-xii. sudo apt-get install ros-noetic-catkin
++ xii. sudo apt-get install ros-noetic-catkin
 
 
 
