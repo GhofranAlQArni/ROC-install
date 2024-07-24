@@ -69,29 +69,29 @@ From the Virtual box software, click on NEW.
 
 # in TERMINAL ;
 ```ruby
-+ i. sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+ i. sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
 
-+ ii. sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
+ ii. sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
 
-+ iii. sudo apt-get update
+ iii. sudo apt-get update
 
-+ iv. sudo apt-get install ros-kinetic-desktop-full
+ iv. sudo apt-get install ros-kinetic-desktop-full
 
-+ v. apt-cache search ros-kinetic
+ v. apt-cache search ros-kinetic
 
-+ vi. echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
+ vi. echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
 
-+ vii. source ~/.bashrc
+ vii. source ~/.bashrc
 
-+ viii. sudo apt install python-rosdep python-rosinstall python-rosinstall-generator python-wstool build-essential
+ viii. sudo apt install python-rosdep python-rosinstall python-rosinstall-generator python-wstool build-essential
 
-+ ix. sudo apt install python-rosdep
+ ix. sudo apt install python-rosdep
 
-+ x. sudo rosdep init
+ x. sudo rosdep init
 
-+ xi. rosdep update
+ xi. rosdep update
 
-+ xii. sudo apt-get install ros-noetic-catkin
+ xii. sudo apt-get install ros-noetic-catkin
 ```
 
 
